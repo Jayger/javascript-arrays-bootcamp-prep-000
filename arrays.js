@@ -1,12 +1,12 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-  const array = [element, ...array];
+  const arrayTwo = [element, ...array];
   return array;
 }
 
 function addElementToEndOfArray(array, element) {
-  const array = [...array, element];
+  const arrayTwo = [...array, element];
   return array;
 }
 
